@@ -1,0 +1,26 @@
+#disabledSubmit,
+#enabledSubmit {
+    margin-left: 10px;
+}
+
+#enabledInput {
+    background-color: lightblue;
+}
+
+input,
+button {
+    border-radius: 6px;
+}
+
+input:required {
+    border-color: red;
+    background-color: lightblue;
+}
+
+button:enabled {
+    background-color: lightblue;
+}
+
+label {
+    font-weight: bold;
+}
