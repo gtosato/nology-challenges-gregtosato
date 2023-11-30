@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    height: 300px;
+    width: 900px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div {
+    display: flex;
+    width: 33%;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#p_card_8 {
+    background-color: lightblue;
+}
+
+#p_card_9 {
+    background-color: orange;
+}
+
+#p_card_10 {
+    background-color: rgb(210, 67, 155);
+}
+
+#p_card_11 {
+    background-color: red;
+}
+
+#p_card_12 {
+    background-color: lightgreen;
+}
