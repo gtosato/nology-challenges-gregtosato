@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    height: 300px;
+    width: 900px;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    width: 33%;
+    align-items: center;
+    height:  100%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#p_card_1 {
+    background-color: lightblue;
+}
+
+#p_card_2 {
+    background-color: orange;
+}
+
+#p_card_3 {
+    background-color: rgb(210, 67, 155);
+}
+
