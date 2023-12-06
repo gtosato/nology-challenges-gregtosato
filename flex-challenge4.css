@@ -1,0 +1,62 @@
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width:100px;
+    height:100px;
+    margin: 10px;
+}
+
+#blue {
+    background-color: rgb(83, 83, 221);
+}
+
+#light_blue {
+    background-color: lightblue
+}
+
+#grey {
+    background-color: grey;
+}
+
+#light_pink {
+    background-color: lightpink;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#light_green {
+    background-color: lightgreen;
+}
+
+#pink {
+    background-color: rgb(202, 83, 103);
+}
+
+#dark_grey {
+    background-color: darkgray;
+}
+
+#cyan {
+    background-color: cyan;
+}
