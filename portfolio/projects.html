@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="page__header">
+            <div class="header__logo"><img src="./images/logo.png" alt="logo"></div>
+            <div class="menu__icon" onclick="toggleDropdown()">
+                <div class="menu__icon__bar"></div>
+                <div class="menu__icon__bar"></div>
+                <div class="menu__icon__bar"></div>
+            </div>
+            <div class="menu__dropdown" id="menu__dropdown">
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./technologies.html">TECHNOLOGIES</a></li>
+                    <li class="active"><a href="./projects.html">PROJECTS</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="header__menu">
+                <ul>
+                    <li><a href="./index.html" class="header__menu__item">HOME</a></li>
+                    <li><a href="./about.html" class="header__menu__item">ABOUT</a></li>
+                    <li><a href="./technologies.html" class="header__menu__item">TECHNOLOGIES</a></li>
+                    <li><a href="./projects.html" class="header__menu__item active">PROJECTS</a></li>
+                    <li><a href="./contact.html" class="header__menu__item">CONTACT</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="page__content">
+            <section class="content__header" style="background-image: none;">
+                <h1 class="header__title" style="color:#414851; margin-top:30px;">Projects</h1>
+            </section>
+            <section class="project__container">
+                <div class="row">
+                    <div class="project__item">
+
+                        <div class="project__img">
+                            <img src="./images/cyberpunk.png" alt="">
+                        </div>
+                        <div class="project__title">
+                            <h2>Cyber Punk NFT Collection</h2>
+                        </div>
+                        <div class="project__description">
+                            <p>Web 3.0 site designed to display minted non-fungible tokens (NFTs) across Thirdweb marketplace utilising blockchain
+                            technology.</p>
+                        </div>
+                        <div class="live__version__link">View live version</div>
+                        <div class="github__repo__link">View GitHub repository</div>
+                    </div>
+                    <div class="project__item">
+                    
+                        <div class="project__img">
+                            <img src="./images/opensea.png" alt="">
+                        </div>
+                        <div class="project__title">
+                            <h2>Opensea NFT Marketplace</h2>
+                        </div>
+                        <div class="project__description">
+                            <p>Interactive website with purchasing capability of NFTs via Ethereum (ETH) cryptocurrency over blockchain.</p>
+                        </div>
+                        <div class="live__version__link">View live version</div>
+                        <div class="github__repo__link">View GitHub repository</div>
+                    </div>
+                    <div class="project__item">
+                    
+                        <div class="project__img">
+                            <img src="./images/coinbase.png" alt="">
+                        </div>
+                        <div class="project__title">
+                            <h2>Coinbase Crypto Exchange</h2>
+                        </div>
+                        <div class="project__description">
+                            <p>Portfolio management for various cryptocurrencies (ETH, BTC, SOL, etc), providing fund transferring capabilities across
+                            the blockchain.</p>
+                        </div>
+                        <div class="live__version__link">View live version</div>
+                        <div class="github__repo__link">View GitHub repository</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="project__item">
+                    
+                        <div class="project__img">
+                            <img src="./images/fowlowl.png" alt="">
+                        </div>
+                        <div class="project__title">
+                            <h2>Fowl Owl</h2>
+                        </div>
+                        <div class="project__description">
+                            <p>Released on the App Store for the iOS platform, this game is a test of reflexes and quick thinking!</p>
+                        </div>
+                        <div class="live__version__link">View live version</div>
+                        <div class="github__repo__link">View GitHub repository</div>
+                    </div>
+                    <div class="project__item">
+                    
+                        <div class="project__img">
+                            <img src="./images/realdarts.png" alt="">
+                        </div>
+                        <div class="project__title">
+                            <h2>Real Darts</h2>
+                        </div>
+                        <div class="project__description">
+                            <p>Released on the App Store for the iOS platform, Real Darts simplifies scoring darts, assisting players with checkouts,
+                            finishes, and managing scoring stats.</p>
+                        </div>
+                        <div class="live__version__link">View live version</div>
+                        <div class="github__repo__link">View GitHub repository</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="page__footer">
+            <p>Copyright (c) 2023 All rights reserved by Greg Tosato</p>
+        </footer>
+    </div>
+</body>
+</html>

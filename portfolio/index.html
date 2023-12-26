@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap" rel="stylesheet">    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <div class="page">
+        <header class="page__header">
+            <div class="header__logo"><img src="./images/logo.png" alt="logo"></div>
+            <div class="menu__icon" onclick="toggleDropdown()">
+                <div class="menu__icon__bar"></div>
+                <div class="menu__icon__bar"></div>
+                <div class="menu__icon__bar"></div>
+            </div>
+            <div class="menu__dropdown" id="menu__dropdown">
+                <ul>
+                    <li class="active"><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./technologies.html">TECHNOLOGIES</a></li>
+                    <li><a href="./projects.html">PROJECTS</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="header__menu">
+                <ul>
+                    <li><a href="./index.html" class="header__menu__item active">HOME</a></li>
+                    <li><a href="./about.html" class="header__menu__item">ABOUT</a></li>
+                    <li><a href="./technologies.html" class="header__menu__item">TECHNOLOGIES</a></li>
+                    <li><a href="./projects.html" class="header__menu__item">PROJECTS</a></li>
+                    <li><a href="./contact.html" class="header__menu__item">CONTACT</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="page__content">
+            <section class="content__header">
+                <h1 class="header__title">Welcome to the portfolio of<br>Greg Tosato</h1>
+                <p class="content__header__paragraph">Thank you for taking the time to view how I can assist your business.</p>
+                <div class="button__container">
+                    <button class="header__button" onclick="window.open('./projects.html', '_self');">VIEW LATEST PROJECTS</button>
+                </div>
+            </section>
+            <section class="content__main">
+                <div class="main__left">
+                    <div class="main__left__container">
+                        <h2 class="main__left__title">Web Application Developer</h2>
+                        <div class="main__left__text">
+                            <p>As a web application developer, it is critical to meet and exceed client expectations.</p>
+                            <p>Skilled across various platforms, I strive to continually learn and utilise new and existing technologies.</p>
+                            <p>Out of all professions, software development provides a true blessing of having a worldwide and vibrant
+                            community for help, guidance and research.</p>
+                            <p>With so many technologies and languages emerging, understanding the needs of your business is critical.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__right">
+                    <div class="main__right__image">
+                        <img src="./images/devices.png" alt="devices">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="page__footer">
+            <p>Copyright (c) 2023 All rights reserved by Greg Tosato</p>
+        </footer>
+    </div>
+    
+</body>
+</html>

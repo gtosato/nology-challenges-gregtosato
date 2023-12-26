@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="page__header">
+            <div class="header__logo"><img src="./images/logo.png" alt="logo"></div>
+            <div class="menu__icon" onclick="toggleDropdown()">
+                <div class="menu__icon__bar"></div>
+                <div class="menu__icon__bar"></div>
+                <div class="menu__icon__bar"></div>
+            </div>
+            <div class="menu__dropdown" id="menu__dropdown">
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li class="active"><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./technologies.html">TECHNOLOGIES</a></li>
+                    <li><a href="./projects.html">PROJECTS</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="header__menu">
+                <ul>
+                    <li><a href="./index.html" class="header__menu__item">HOME</a></li>
+                    <li><a href="./about.html" class="header__menu__item active">ABOUT</a></li>
+                    <li><a href="./technologies.html" class="header__menu__item">TECHNOLOGIES</a></li>
+                    <li><a href="./projects.html" class="header__menu__item">PROJECTS</a></li>
+                    <li><a href="./contact.html" class="header__menu__item">CONTACT</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="page__content">
+            <section class="content__header" style="background-image: url('./images/about.jpeg');">
+                <h1 class="header__title">About Me</h1>
+                <p class="content__header__paragraph">Thank you for taking a moment to learn about me</p>
+                <div class="button__container">
+                    <button class="header__button" onclick="window.open('./projects.html', '_self')">VIEW LATEST PROJECTS</button>
+                </div>
+            </section>
+            <section class="content__main content__main__about">
+                <div class="main__left">
+                    <div class="main__left__container">
+                        <h2 class="main__left__title">Greg Tosato</h2>
+                        <div class="main__left__text">
+                            <p>Hello my name is Greg.  I was originally born and raised in Canada.  I moved to Australia in 2003 to marry my wonderful wife of nearly 20 years.</p>
+                            <p>Before the days of the Internet, I took an interest in computer programming as a teenager, writing BASIC code on my Commodore 64.</p>
+                            <p>I pursued computer studies in College, earning a 3-Year Diploma in Business with a major in Information Systems.</p>
+                            <p>In 2015, I wrote and released several apps for the Android and iOS platforms, before taking a break to care for my daughter full time.</p>
+                            <p>At the moment, I am upskilling with the intent of re-entering the IT industry.</p>
+                            <p>Outside of work, I enjoy competing in darts tournaments at local and state level.  I also enjoy playing various instruments including guitar, piano, and drums.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__right">
+                    <div class="main__right__image main__right__image__about">
+                        <img src="./images/profile_pic.jpg" alt="devices">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="page__footer">
+            <p>Copyright (c) 2023 All rights reserved by Greg Tosato</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
