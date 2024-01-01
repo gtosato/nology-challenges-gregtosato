@@ -1,0 +1,225 @@
+/********************** TOP MENU ***************/
+.menu {
+    display: flex;
+    position: absolute;
+    padding: 1px;
+    font-size: 15px;
+    background: #dadada;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.menu__dropdown {
+    position: absolute;
+    background-color: #e4e4e4;
+    padding: 0px 10px;
+    border-radius: 3px;
+}
+
+.menu__items__left {
+    display: flex;
+}
+
+.menu__items__right {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.menu__item {
+    font-size: 0.92em;
+    padding: 0px 10px;
+}
+
+.menu__items__right > .menu__item {
+    padding: 0px 2px;
+}
+
+#menu__finder,
+#menu__file,
+#menu__edit,
+#menu__view,
+#menu__go,
+#menu__window,
+#menu__help {
+    margin-top: 5px;
+}
+
+#apple_icon {
+    height: 25px;
+}
+
+#menu__dropdown {
+    z-index: 1;
+    font-size: 14px;
+}
+
+#menu__dropdown > ul > li {
+    padding: 2px;
+    margin: 4px 0px;
+}
+
+ul > li:hover {
+    background-color: rgb(55, 55, 255);
+    color: white;
+    border-radius: 3px;
+}
+#menu__dropdown__text {
+    list-style-type: none;
+    padding: 2px;
+}
+
+#menu__item__clock {
+    padding: 5px;
+}
+
+/********** DESKTOP ***********/
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+#desktop {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/desktop_background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.icon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+}
+
+.icon__text {
+    color: white;
+    font-size: 14px;
+}
+
+#finder {
+    top: 50px;
+    left: 50px;
+}
+
+#safari {
+    top: 150px;
+    left: 50px;
+}
+
+#textedit {
+    top: 250px;
+    left: 50px;
+}
+
+.icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/******* DOCK **********/
+#dock__hover__container {
+    position: absolute;
+    z-index: 9999;
+}
+
+.dock__hover__image>img {
+    height: 40px;
+}
+
+.dock__hover__text {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+    width: 90%;
+}
+
+.dock__container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.dock {
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 580px;
+    height: 68px;
+    background: #dadada;
+    bottom: 15px;
+}
+
+.dock__content {
+    display: flex;
+    justify-content: center;
+}
+
+.dock__content__item {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.dock__image {
+    height: 60px;
+}
+
+/************ MODAL WINDOW *************/
+#modal__container__finder {
+    position: absolute;
+    z-index: 1;
+    left: 300px;
+    top: 80px;
+}
+
+#modal__container__safari {
+    position: absolute;
+    z-index: 1;
+    left: 200px;
+    top: 200px;
+}
+
+#modal__container__textedit {
+    position: absolute;
+    z-index: 1;
+    left: 400px;
+    top: 160px;
+}
+
+#textedit__textarea {
+    resize: none;
+    width: 99%;
+    height: 80%;
+    position: absolute;
+    top: 87px;
+    border-style: none;
+    outline: 0;
+}
+
+.modal__image > img {
+    width: 800px;
+    border-radius: 5px;
+}
+
+.button__image > img {
+    height: 20px;
+}
+
+.button__container {
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+

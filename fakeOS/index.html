@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./scripts/script.js" defer></script>
+    <script src="./scripts/menu.js" defer></script>
+    <script src="./scripts/clock.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac OSX Desktop Mockup</title>
+</head>
+
+<body>
+    <div id="desktop">
+        <!-- TOP MENU -->
+        <div class="menu">
+            <div class="menu__items__left">
+                <div class="menu__dropdown" id="menu__dropdown"></div>
+                <div class="menu__item">
+                    <div class="menu__item__image">
+                        <img src="./images/apple.png" alt="Apple Icon" id="apple_icon">
+                    </div>
+                </div>
+                <div class="menu__item"><div id="menu__finder">Finder</div></div>
+                <div class="menu__item"><div id="menu__file">File</div></div>
+                <div class="menu__item"><div id="menu__edit">Edit</div></div>
+                <div class="menu__item"><div id="menu__view">View</div></div>
+                <div class="menu__item"><div id="menu__go">Go</div></div>
+                <div class="menu__item"><div id="menu__window">Window</div></div>
+                <div class="menu__item"><div id="menu__help">Help</div></div>
+            </div>
+            <div class="menu__items__right">
+                <div class="menu__item">
+                    <div class="menu__item__image">
+                        <img src="./images/bluetooth.png" alt="Apple Icon" id="apple_icon">
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item__image">
+                        <img src="./images/battery.png" alt="Apple Icon" id="apple_icon">
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item__image">
+                        <img src="./images/wifi.png" alt="Apple Icon" id="apple_icon">
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item__image">
+                        <img src="./images/profile.png" alt="Apple Icon" id="apple_icon">
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item__image">
+                        <img src="./images/search.png" alt="Apple Icon" id="apple_icon">
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item__date"></div>
+                    <div class="menu__item__clock" id="menu__item__clock">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- DESKTOP ICONS -->
+        <div id="finder" class="icon">
+            <img src="./images/finder_icon.png" alt="Finder">
+            <div class="icon__text">Finder</div>
+        </div>
+        <div id="safari" class="icon">
+            <img src="./images/safari_icon.png" alt="Safari">
+            <div class="icon__text">Safari</div>
+        </div>
+        <div id="textedit" class="icon">
+            <img src="./images/textedit_icon.png" alt="TextEdit">
+            <div class="icon__text">TextEdit</div>
+        </div>
+        
+        <!-- MODALS -->
+
+        <!-- FINDER -->
+        <div class="modal__container" id="modal__container__finder">
+            <div class="modal__image">
+                <div class="button__container">
+                    <div class="button__image" id="button__close">
+                        <img src="./images/close_btn_inactive.png" id="btn__close" alt="">
+                    </div>
+                    <div class="button__image" id="button__minimise">
+                        <img src="./images/minimise_btn_inactive.png" alt="">
+                    </div>
+                    <div class="button__image" id="button__maximise">
+                        <img src="./images/maximise_btn_inactive.png" alt="">
+                    </div>
+                </div>
+                <img src="./images/finder_modal.png" alt="">
+            </div>
+        </div>
+
+        <!-- SAFARI -->
+        <div class="modal__container" id="modal__container__safari">
+            <div class="modal__image">
+                <div class="button__container">
+                    <div class="button__image" id="button__close__safari">
+                        <img src="./images/close_btn_inactive.png" id="btn__close__safari" alt="">
+                    </div>
+                    <div class="button__image" id="button__minimise">
+                        <img src="./images/minimise_btn_inactive.png" alt="">
+                    </div>
+                    <div class="button__image" id="button__maximise">
+                        <img src="./images/maximise_btn_inactive.png" alt="">
+                    </div>
+                </div>
+                <img src="./images/safari_modal.png" alt="">
+            </div>
+        </div>
+
+        <!-- TEXT EDIT -->
+        <div class="modal__container" id="modal__container__textedit">
+            <div class="modal__image">
+                <div class="button__container">
+                    <div class="button__image" id="button__close__textedit">
+                        <img src="./images/close_btn_inactive.png" id="btn__close__textedit" alt="">
+                    </div>
+                    <div class="button__image" id="button__minimise">
+                        <img src="./images/minimise_btn_inactive.png" alt="">
+                    </div>
+                    <div class="button__image" id="button__maximise">
+                        <img src="./images/maximise_btn_inactive.png" alt="">
+                    </div>
+                </div>
+                <textarea name="textedit__textarea" id="textedit__textarea" cols="30" rows="10"></textarea>
+                <img src="./images/textedit_modal.png" alt="">
+            </div>
+        </div>
+        
+        <!-- DOCK ITEM HOVER -->
+        <div class="dock__hover__container" id="dock__hover__container">
+            <div class="dock__hover__image">
+                <div class="dock__hover__text" id="dock__hover__text"></div>
+                <img src="./images/dock_hover.png" alt="dock hover">
+            </div>
+        </div>
+
+        <!-- MAIN DOCK AREA -->
+        <div class="dock__container">
+            <div class="dock">
+                <div class="dock__content">
+                    <div class="dock__content__item">
+                        <div class="dock__image">
+                            <img src="./images/finder.png" class="dock__image" id="Finder" alt="">
+                        </div>
+                    </div>
+                    <div class="dock__content__item">
+                        <div class="dock__image">
+                            <img src="./images/launchpad.png" class="dock__image" id="Launchpad" alt="">
+                        </div>
+                    </div>
+                    <div class="dock__content__item">
+                        <div class="dock__image">
+                            <img src="./images/chrome.png" class="dock__image" id="Chrome" alt="">
+                        </div>
+                    </div>
+                    <div class="dock__content__item">
+                        <div class="dock__image">
+                            <img src="./images/vscode.png" class="dock__image" id="VS Code" alt="">
+                        </div>
+                    </div>
+                    <div class="dock__content__item">
+                        <div class="dock__image">
+                            <img src="./images/calculator.png" class="dock__image" id="Calculator" alt="">
+                        </div>
+                    </div>
+                    <div class="dock__content__item">
+                        <div class="dock__image">
+                            <img src="./images/xcode.png" class="dock__image" id="Xcode" alt="">
+                        </div>
+                    </div>
+                    <div class="dock__content__item">
+                        <div class="dock__image">
+                            <img src="./images/calendar.png" class="dock__image" id="Calendar" alt="">
+                        </div>
+                    </div>
+                    <div class="dock__content__item">
+                        <div class="dock__image">
+                            <img src="./images/messages.png" class="dock__image" id="Messages" alt="">
+                        </div>
+                    </div>
+                    <div class="dock__content__item">
+                        <div class="dock__image">
+                            <img src="./images/separator.png" class="dock__image" id="Separator" alt="">
+                        </div>
+                    </div>
+                    <div class="dock__content__item">
+                        <div class="dock__image">
+                            <img src="./images/bin.png" class="dock__image" id="Bin" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
